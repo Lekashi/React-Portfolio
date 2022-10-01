@@ -28,19 +28,35 @@ function App() {
           I crave to learn new and different technologies everyday.
         </p>
       </div>
-      <div>
         <h3 id="projects">Projects</h3>
         <div>
           <h4>Ready-eft-CRUD</h4>
+          <div>
+          <a href="https://github.com/Lekashi/Ready-EFT-CRUD">Github</a>
+          <a href="https://github.com/Lekashi/Ready-EFT-CRUD">Deployed Link</a>
+          </div>
         </div>
+      <div>
         <div>
           <h5>Not-American Football</h5>
+          <div>
+          <a href="https://github.com/kevinfassu/notamericanfootball">Github</a>
+          <a href="https://kevinfassu.github.io/notamericanfootball/">Deployed Link</a>
+          </div>
         </div>
         <div>
           <h5>House-Plant-Helper</h5>
+          <div>
+          <a href="https://github.com/mayalorimer/House-Plant-Helper">Github</a>
+          <a href="https://desolate-anchorage-75648.herokuapp.com/">Deployed Link</a>
+          </div>
         </div>
         <div>
           <h5>Mix-Me</h5>
+          <div>
+          <a href="https://github.com/ChrisDeng1999/Mix-Me">Github</a>
+          <a href="https://github.com/ChrisDeng1999/Mix-Me">Deployed Link</a>
+          </div>
         </div>
       </div>
       <div>
