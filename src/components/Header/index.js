@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css"
 
 const Header = () => {
   return (
@@ -19,7 +20,7 @@ const Header = () => {
       >
         Github
       </a>
-      <a>Resume</a>
+      <a href="../../../public/Resume.docx" download>Resume</a>
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
     </nav>

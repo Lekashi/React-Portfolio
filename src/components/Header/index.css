@@ -1,0 +1,8 @@
+header {
+    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+nav {
+left: 95%;
+}
