@@ -1,9 +1,12 @@
 header {
+  margin-bottom: 20px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
 }
 
 nav {

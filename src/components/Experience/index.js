@@ -1,10 +1,11 @@
 import React from "react";
+import "./index.css";
 
 const Experience = () => {
   return (
-    <div>
-        <h3 id="experience">Experience</h3>
-        <h4>Technologies</h4>
+    <div id="experience">
+      <h3>Experience & Technologies</h3>
+      <div className="tech">
         <div>
           <h4>Backend</h4>
           <ul>
@@ -33,6 +34,7 @@ const Experience = () => {
           </ul>
         </div>
       </div>
+    </div>
   );
 };
 
