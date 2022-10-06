@@ -1,4 +1,7 @@
 import React from "react";
+import "./index.css";
+import eftLogo from "../../images/eftLogo.png"
+import housePlant from "../../images/house-plant.jpg"
 
 const Projects = () => {
   return (
@@ -6,7 +9,7 @@ const Projects = () => {
       <h3 id="projects">Projects</h3>
       <div id="mainPrjt">
         <h4>Ready-eft-CRUD</h4>
-        <div className="prjtLinkDiv">
+        <div className="prjtLinkDiv" src={eftLogo} width="300px"height="100px">
           <a
             href="https://github.com/Lekashi/Ready-EFT-CRUD"
             target="_blank"
@@ -28,7 +31,7 @@ const Projects = () => {
       <div className="sidePrjts">
         <div className="PrjtDiv" id="notAmerican">
           <h5>Not-American Football</h5>
-          <div className="prjtLinkDiv">
+          <div className="prjtLinkDiv" src={housePlant}>
             <a
               href="https://github.com/kevinfassu/notamericanfootball"
               target="_blank"

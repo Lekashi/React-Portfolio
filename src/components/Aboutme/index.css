@@ -1,24 +1,30 @@
 img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 h2 {
-    margin: 8px;
+  margin: 8px;
 }
 
 .aboutMe {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  background-color: darkslategray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px 0px 20px 0px;
 }
 
 .aboutMeText {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .whoIAm {
-    padding: 10px;
-    margin: 5px 30px 5px 30px; 
-    width: 700px;
+  padding: 10px;
+  margin: 5px 30px 5px 30px;
+  width: 700px;
+  background-color: rgba(0, 93, 100, 0.479);
+  color: rgb(158, 139, 115);
+  border-radius: 10px;
 }
