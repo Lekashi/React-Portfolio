@@ -1,5 +1,39 @@
 .prjtLinks {
-    padding: 10px;
-    background-color: bisque;
-    margin: 0px 3px 0 3px 
+  padding: 10px;
+  background-color: bisque;
+  margin: 0px 3px 0 3px;
+  border-radius: 10%;
+}
+
+.prjtLinkDiv {
+  position: relative;
+  bottom: 23px;
+}
+
+.AllProject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mainPrjt {
+  display: flex;
+  height: 250px;
+  background-color: rgb(104, 64, 64);
+  z-index: -2;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  border-radius: 15px;
+}
+
+.rEftTitle {
+  margin: 0px;
+  position: relative;
+  top: 23px;
+}
+
+.mainPrjtImg {
+  width: 500px;
 }

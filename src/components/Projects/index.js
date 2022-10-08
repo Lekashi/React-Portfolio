@@ -5,11 +5,12 @@ import housePlant from "../../images/house-plant.jpg"
 
 const Projects = () => {
   return (
-    <div>
+    <div className="AllProject">
       <h3 id="projects">Projects</h3>
       <div id="mainPrjt">
-        <h4>Ready-eft-CRUD</h4>
-        <div className="prjtLinkDiv" src={eftLogo} width="300px"height="100px">
+        <h4 className="rEftTitle">Ready-eft-CRUD</h4>
+        <img className="mainPrjtImg" src={eftLogo} />
+        <div className="prjtLinkDiv" width="300px"height="100px">
           <a
             href="https://github.com/Lekashi/Ready-EFT-CRUD"
             target="_blank"
