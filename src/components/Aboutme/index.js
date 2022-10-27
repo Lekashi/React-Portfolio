@@ -18,7 +18,7 @@ const Aboutme = () => {
           Hi, my name is Nicholas Pisano. I am currently 23 years old living in
           Los Angeles County, California. I have many hobbies i love to surround
           myself with like video games, rock climbing and FPV Drone flying. I
-          think one of my greatest ability is also one of my greatest
+          think one of my greatest abilities is also one of my greatest
           weaknesses, I strive always to carry my weight in anything I do in
           life. I have the same passion towards my coding.
         </p>

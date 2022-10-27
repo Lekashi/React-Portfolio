@@ -32,7 +32,8 @@ const Projects = () => {
       <div className="sidePrjts">
         <div className="PrjtDiv" id="notAmerican">
           <h5>Not-American Football</h5>
-          <div className="prjtLinkDiv" src={housePlant}>
+          <img className="sidePrjtImg" src={housePlant} />
+          <div className="prjtLinkDiv">
             <a
               href="https://github.com/kevinfassu/notamericanfootball"
               target="_blank"
@@ -53,6 +54,7 @@ const Projects = () => {
         </div>
         <div className="PrjtDiv" id="housePlant">
           <h5>House-Plant-Helper</h5>
+          <img className="sidePrjtImg" src={housePlant} />
           <div className="prjtLinkDiv">
             <a
               href="https://github.com/mayalorimer/House-Plant-Helper"
@@ -74,6 +76,7 @@ const Projects = () => {
         </div>
         <div className="PrjtDiv" id="housePlant">
           <h5>Mix-Me</h5>
+          <img className="sidePrjtImg" src={housePlant} />
           <div className="prjtLinkDiv">
             <a
               href="https://github.com/ChrisDeng1999/Mix-Me"
