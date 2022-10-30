@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.c5a5dc29.css",
-    "main.js": "/React-Portfolio/static/js/main.01646e94.js",
+    "main.js": "/React-Portfolio/static/js/main.e898dc0f.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/notAmerican.jpg": "/React-Portfolio/static/media/notAmerican.57219ff19083e582bed5.jpg",
     "static/media/mixMe.jpg": "/React-Portfolio/static/media/mixMe.6a6b7e99413f4e2379aa.jpg",
     "static/media/eftLogo.png": "/React-Portfolio/static/media/eftLogo.6d0c3745aeabaddf11ad.png",
     "static/media/me1.jpg": "/React-Portfolio/static/media/me1.48107799c8ea081e4f83.jpg",
     "static/media/house-plant.jpg": "/React-Portfolio/static/media/house-plant.7e66a2efff087585cab0.jpg",
-    "static/media/logo.svg": "/React-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/React-Portfolio/index.html",
     "main.c5a5dc29.css.map": "/React-Portfolio/static/css/main.c5a5dc29.css.map",
-    "main.01646e94.js.map": "/React-Portfolio/static/js/main.01646e94.js.map",
+    "main.e898dc0f.js.map": "/React-Portfolio/static/js/main.e898dc0f.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5a5dc29.css",
-    "static/js/main.01646e94.js"
+    "static/js/main.e898dc0f.js"
   ]
 }
