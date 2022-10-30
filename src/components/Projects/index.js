@@ -1,7 +1,9 @@
 import React from "react";
 import "./index.css";
-import eftLogo from "../../images/eftLogo.png"
-import housePlant from "../../images/house-plant.jpg"
+import eftLogo from "../../images/eftLogo.png";
+import housePlant from "../../images/house-plant.jpg";
+import soccerPic from "../../images/notAmerican.jpg";
+import mixxerPic from "../../images/mixMe.jpg"
 
 const Projects = () => {
   return (
@@ -9,8 +11,8 @@ const Projects = () => {
       <h3 id="projects">Projects</h3>
       <div id="mainPrjt">
         <h4 className="rEftTitle">Ready-eft-CRUD</h4>
-        <img className="mainPrjtImg" src={eftLogo} />
-        <div className="prjtLinkDiv" width="300px"height="100px">
+        <img className="mainPrjtImg" src={eftLogo} alt="Logo of the video game Escape from Tarkov"/>
+        <div className="mainPrjtLinkDiv" width="300px"height="100px">
           <a
             href="https://github.com/Lekashi/Ready-EFT-CRUD"
             target="_blank"
@@ -32,7 +34,7 @@ const Projects = () => {
       <div className="sidePrjts">
         <div className="PrjtDiv" id="notAmerican">
           <h5>Not-American Football</h5>
-          <img className="sidePrjtImg" src={housePlant} />
+          <img className="sidePrjtImg" src={soccerPic} alt="Professional Soccer game"/>
           <div className="prjtLinkDiv">
             <a
               href="https://github.com/kevinfassu/notamericanfootball"
@@ -54,7 +56,7 @@ const Projects = () => {
         </div>
         <div className="PrjtDiv" id="housePlant">
           <h5>House-Plant-Helper</h5>
-          <img className="sidePrjtImg" src={housePlant} />
+          <img className="sidePrjtImg" src={housePlant} alt="House Plant"/>
           <div className="prjtLinkDiv">
             <a
               href="https://github.com/mayalorimer/House-Plant-Helper"
@@ -74,9 +76,9 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="PrjtDiv" id="housePlant">
+        <div className="PrjtDiv" id="mixMe">
           <h5>Mix-Me</h5>
-          <img className="sidePrjtImg" src={housePlant} />
+          <img className="sidePrjtImg" src={mixxerPic} alt="Mixed drinks at the beach"/>
           <div className="prjtLinkDiv">
             <a
               href="https://github.com/ChrisDeng1999/Mix-Me"
@@ -87,7 +89,7 @@ const Projects = () => {
               Github
             </a>
             <a
-              href="https://github.com/ChrisDeng1999/Mix-Me"
+              href="https://dashboard.heroku.com/apps/guarded-reef-56811"
               target="_blank"
               rel="noreferrer"
               className="prjtLinks"

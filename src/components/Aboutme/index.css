@@ -9,6 +9,7 @@ h2 {
 .aboutMe {
   background-color: darkslategray;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 20px;
@@ -29,8 +30,8 @@ h2 {
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 600px){
+/* @media only screen and (max-width: 600px){
   .aboutMe {
     
   }
-}
+} */
