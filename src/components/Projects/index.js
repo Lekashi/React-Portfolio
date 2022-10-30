@@ -1,11 +1,18 @@
 import React from "react";
 import "./index.css";
+import $ from 'jquery';
+
+import AllProjects from "../AllProjects/index.js"
 import eftLogo from "../../images/eftLogo.png";
 import housePlant from "../../images/house-plant.jpg";
 import soccerPic from "../../images/notAmerican.jpg";
 import mixxerPic from "../../images/mixMe.jpg"
 
 const Projects = () => {
+  function viewAllPrograms () {
+    $("#allProjectsDiv").toggle();
+  }
+
   return (
     <div className="AllProject">
       <h3 id="projects">Projects</h3>
@@ -98,6 +105,10 @@ const Projects = () => {
             </a>
           </div>
         </div>
+      </div>
+      <button onClick={viewAllPrograms}>View More Projects</button>
+      <div id="allProjectsDiv">
+        <AllProjects />
       </div>
     </div>
   );

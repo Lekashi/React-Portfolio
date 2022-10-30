@@ -1,7 +1,4 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Aboutme from "./components/Aboutme";
