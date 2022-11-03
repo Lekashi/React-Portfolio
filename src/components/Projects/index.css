@@ -21,6 +21,10 @@
   align-items: center;
 }
 
+.AllProject h5, h4 {
+  color: black;
+}
+
 #mainPrjt {
   display: flex;
   height: 250px;

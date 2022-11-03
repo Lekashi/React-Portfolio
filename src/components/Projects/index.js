@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 import $ from 'jquery';
 
-import AllProjects from "../AllProjects/index.js"
+
 import eftLogo from "../../images/eftLogo.png";
 import housePlant from "../../images/house-plant.jpg";
 import soccerPic from "../../images/notAmerican.jpg";
@@ -107,9 +107,6 @@ const Projects = () => {
         </div>
       </div>
       <button onClick={viewAllPrograms}>View More Projects</button>
-      <div id="allProjectsDiv">
-        <AllProjects />
-      </div>
     </div>
   );
 };
