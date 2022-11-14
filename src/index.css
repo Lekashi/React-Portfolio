@@ -15,8 +15,6 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     color: var(--light);
     background: var(--global-background);
-
-  
 }
 
 code {

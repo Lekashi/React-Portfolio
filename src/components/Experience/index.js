@@ -6,17 +6,16 @@ const Experience = () => {
     <div id="experience">
       <h3>Experience & Technologies</h3>
       <div className="tech">
-        <div>
+        <div id="backendTech" className="technology">
           <h4>Backend</h4>
           <ul>
             <li>PHP</li>
-            <li>Mongo</li>
+            <li>MongoDB</li>
             <li>MySQL</li>
-            <li>NoSQL</li>
             <li>Socket.io</li>
           </ul>
         </div>
-        <div>
+        <div id="frontendTech" className="technology">
           <h4>Frontend</h4>
           <ul>
             <li>React Native</li>
@@ -28,10 +27,9 @@ const Experience = () => {
             <li>Handlebars</li>
           </ul>
         </div>
-        <div>
+        <div id="languagesFrameworks" className="technology">
           <h4>Languages</h4>
           <ul>
-            <li>Rust</li>
             <li>Python</li>
             <li>C# & C++</li>
             <li>Javascipt</li>

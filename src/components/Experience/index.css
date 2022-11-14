@@ -1,6 +1,5 @@
 ul {
     list-style: none;
-    width:400px;
     margin: 15px;
 }
 
@@ -14,7 +13,23 @@ li {
     justify-content: space-around;
 }
 
+.technology {
+    background-color: darkgray;
+    border-radius: 30px;
+}
+
 #experience {
+    color: salmon;
     display: flex;
     flex-direction: column;
+    padding-top: 30px;
+    margin-bottom: 30px;
 }
+
+
+@media only screen and (max-width: 600px){
+
+    .technology {
+        width: 350px;
+    }
+   }

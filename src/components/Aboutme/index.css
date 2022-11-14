@@ -30,8 +30,12 @@ h2 {
   border-radius: 10px;
 }
 
-/* @media only screen and (max-width: 600px){
-  .aboutMe {
-    
-  }
-} */
+@media only screen and (max-width: 600px){
+ .whoIAm {
+  width: 280px;
+ }
+
+ .imgMe {
+  width: 350px;
+ }
+}

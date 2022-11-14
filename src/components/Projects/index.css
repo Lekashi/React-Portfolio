@@ -21,7 +21,8 @@
   align-items: center;
 }
 
-.AllProject h5, h4 {
+.AllProject h5,
+h4 {
   color: black;
 }
 
@@ -75,4 +76,18 @@
   height: 334px;
   width: 500px;
   border-radius: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainPrjtImg {
+    width: 350px;
+  }
+
+  #mainPrjt {
+    width: 350px;
+  }
+
+  .sidePrjtImg {
+    width: 350px;
+  }
 }
